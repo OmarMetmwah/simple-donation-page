@@ -1,22 +1,7 @@
-/* ===========================================================
- * animationCounter.js v.1.0.0
- * ===========================================================
- * Copyright 2017 Micheline Pavadé
- * http://www.pixel-renaissance.com
- * https://github.com/mpavade/
- *
- * animationCounter.js is a plugin that animate a counter from one value to another value
- * or from a number to an infinite value
- *
- * License MIT
- *
- * ========================================================== */
+(function ($) {
 
-
-(function($){
-
-	$.fn.animationCounter = function(options) {
-		return this.each(function() {
+	$.fn.animationCounter = function (options) {
+		return this.each(function () {
 			try {
 				var element = $(this);
 
@@ -33,9 +18,9 @@
 				var nb_start = settings.start;
 				var nb_end = settings.end;
 
- 				element.text(nb_start + settings.txt);
+				element.text(nb_start + settings.txt);
 
-				var counter = function() {
+				var counter = function () {
 					// Definition of conditions of arrest
 					if (nb_end != null && nb_start >= nb_end) {
 						return;
@@ -50,8 +35,8 @@
 				// Launches every "settings.delay"
 				setInterval(counter, settings.delay);
 
-			} catch(e){
-				alert( e + ' at line ' + e.lineNumber );
+			} catch (e) {
+				alert(e + ' at line ' + e.lineNumber);
 			}
 		});
 	};
