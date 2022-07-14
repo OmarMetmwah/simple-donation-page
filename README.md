@@ -10,12 +10,12 @@ as a task for **TSF GRIP**:
 
 Link Of The Website:
 
-["https://metmwah-donation.herokuapp.com"]("https://metmwah-donation.herokuapp.com/")
+[https://metmwah-donation.herokuapp.com](https://metmwah-donation.herokuapp.com)
 
 
 Link Of The Internship:
 
-[https://internship.thesparksfoundation.info/#steps-to-apply]("https://internship.thesparksfoundation.info/#steps-to-apply")
+[https://internship.thesparksfoundation.info/#steps-to-apply](https://internship.thesparksfoundation.info/#steps-to-apply)
 
 
 ## Task Requirements
